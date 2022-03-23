@@ -1,13 +1,9 @@
-# README
-## This is the README for your extension "dark-magic-themes"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+# Dark Magic Themes
+### Dark Magic
+![https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/NVMqsLUf-default.jpeg]
+![https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/NVMqsLUf-panelTerminal.jpeg!]
+![https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/NVMqsLUf-commandPalette.jpeg]
+#### More Coming
+- Dark Magic Nord
+- Dark Magic Snow
+- Dark Magic Blue
