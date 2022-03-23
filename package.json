@@ -1,0 +1,21 @@
+{
+    "name": "dark-magic-themes",
+    "displayName": "Dark Magic Themes",
+    "description": "Set of themes developed by David Morais for Dark Magic Studios",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Magic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Magic-color-theme.json"
+            }
+        ]
+    }
+}
