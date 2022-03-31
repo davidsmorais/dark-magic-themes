@@ -3,7 +3,8 @@
   "publisher": "DavidMorais",
   "displayName": "Dark Magic Themes",
   "author": "David Morais (Dark Magic Studios)",
-  "repository": "git@github.com:Dark-Magic-Studios/dark-magic-themes.git",
+  "icon": "./icon.png",
+  "repository": "https://github.com/Dark-Magic-Studios/dark-magic-themes",
   "description": "Set of dark themes developed by David Morais for Dark Magic Studios",
   "version": "0.0.4",
   "engines": {
@@ -12,6 +13,10 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
   "contributes": {
     "themes": [
       {
