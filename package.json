@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "vsce package",
-    "publish": "vsce publish"
+    "deploy": "vsce publish"
   },
   "contributes": {
     "themes": [
