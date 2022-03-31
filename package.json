@@ -3,7 +3,7 @@
   "publisher": "DavidMorais",
   "displayName": "Dark Magic Themes",
   "author": "David Morais (Dark Magic Studios)",
-  "icon": "./icon.png",
+  "icon": "icon.png",
   "repository": "https://github.com/Dark-Magic-Studios/dark-magic-themes",
   "description": "Set of dark themes developed by David Morais for Dark Magic Studios",
   "version": "0.0.4",
