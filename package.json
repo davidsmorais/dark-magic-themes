@@ -22,12 +22,17 @@
       {
         "label": "Dark Magic",
         "uiTheme": "vs-dark",
-        "path": "./themes/Dark Magic-color-theme.json"
+        "path": "./themes/dark-magic-dark-color-theme.json"
+      },
+      {
+        "label": "Dark Magic Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-magic-night-color-theme.json"
       },
       {
         "label": "Dark Magic Nord",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nord-color-theme.json"
+        "path": "./themes/dark-magic-nord-color-theme.json"
       }
     ]
   }
