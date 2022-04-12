@@ -6,7 +6,7 @@
   "icon": "icon.png",
   "repository": "https://github.com/Dark-Magic-Studios/dark-magic-themes",
   "description": "Set of dark themes developed by David Morais for Dark Magic Studios",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -33,6 +33,11 @@
         "label": "Dark Magic Nord",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-magic-nord-color-theme.json"
+      },
+      {
+        "label": "Dark Magic Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-magic-dracula-color-theme.json"
       }
     ]
   }
