@@ -16,6 +16,11 @@ A set of dark themes with green and purple tones
 
 ![screenshot2](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/WbGhiEY7-commandPalette.jpeg)
 
+
+## Dark Magic Dracula
+![screenshot1](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/bG2deb9E-default.jpeg)
+
+![screenshot2](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/bG2deb9E-commandPalette.jpeg)
+
 #### More Coming
-- Dark Magic Dracula
 - Dark Magic Notion
