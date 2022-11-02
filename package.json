@@ -22,7 +22,7 @@
       {
         "label": "Dark Magic",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-magic-dark-color-theme.json"
+        "path": "./themes/dark-magic-color-theme.json"
       },
       {
         "label": "Dark Magic Night",
