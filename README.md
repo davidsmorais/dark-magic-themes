@@ -1,26 +1,25 @@
 # Dark Magic Themes
 
 A set of dark themes with green and purple tones
+
+## Dark Magic Syntax
 ### Dark Magic
-![screenshot1](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/NVMqsLUf-default.jpeg)
-
-![screenshot2](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/NVMqsLUf-panelTerminal.jpeg)
-### Dark Magic Nord
-![screenshot1](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/meGkbllO-default.jpeg)
-
-![screenshot2](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/meGkbllO-commandPalette.jpeg)
-
+![Dark Magic](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/ev00VHPq-default.jpeg)
 
 ## Dark Magic Night
-![screenshot1](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/WbGhiEY7-default.jpeg)
+![Dark Magic Night](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/eVr8tpJs-default.jpeg)
 
-![screenshot2](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/WbGhiEY7-commandPalette.jpeg)
+## Dark Magic Frankenstein
+![Dark Magic Frankenstein](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/3A4KNx5T-default.jpeg)
 
+## Special Syntax
+### Dark Magic Tokyo
+![Dark Magic Tokyo](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/gtXdi6t8-default.jpeg)
+
+### Dark Magic Nord
+![Dark Magic Nord](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/rXWa7dWL-default.jpeg)
 
 ## Dark Magic Dracula
-![screenshot1](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/bG2deb9E-default.jpeg)
+![Dark Magic Dracula](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/yi9401aC-default.jpeg)
 
-![screenshot2](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/bG2deb9E-commandPalette.jpeg)
 
-#### More Coming
-- Dark Magic Notion
