@@ -38,6 +38,16 @@
         "label": "Dark Magic Dracula",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-magic-dracula-color-theme.json"
+      },
+      {
+        "label": "Dark Magic Frankenstein",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-magic-frankenstein-color-theme.json"
+      },
+      {
+        "label": "Dark Magic Tokyo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-magic-tokyo-color-theme.json"
       }
     ]
   }
