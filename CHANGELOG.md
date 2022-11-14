@@ -8,6 +8,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
  - Refactored the original themes
  - Added Frankenstein & Tokyo Themes
   - Tokyo, Nord & Dracula have specific syntax
+## [0.1.1]
+- Fixed the error color underline
+- Updated syntax for Dark Magic Themes
 ## [Unreleased]
 
 - Initial release
