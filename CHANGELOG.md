@@ -11,6 +11,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.1.1]
 - Fixed the error color underline
 - Updated syntax for Dark Magic Themes
+## [0.1.2]
+- Fixed the command palette theme
+- Fixed the notifications theme
+- Fixed the sidebar hover interaction
 ## [Unreleased]
 
 - Initial release
