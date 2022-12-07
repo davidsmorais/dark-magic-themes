@@ -123,7 +123,7 @@
       "name": "Comment Markup Link",
       "scope": "comment markup.link",
       "settings": {
-        "foreground": "#484b5a"
+        "foreground": "#6c7081"
       }
     },
     {
@@ -1706,7 +1706,7 @@
         "beginning.punctuation.definition.list.markdown.xi"
       ],
       "settings": {
-        "foreground": "#484b5a"
+        "foreground": "#6c7081"
       }
     },
     {
@@ -1751,7 +1751,7 @@
         "punctuation.definition.tag.xi"
       ],
       "settings": {
-        "foreground": "#484b5a"
+        "foreground": "#6c7081"
       }
     },
     {
@@ -1790,14 +1790,14 @@
       "scope": "comment, punctuation.definition.comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#484b5a"
+        "foreground": "#6c7081"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#484b5a"
+        "foreground": "#6c7081"
       }
     },
     {
@@ -1907,12 +1907,12 @@
     "button.secondaryForeground": "#ffffff",
     "button.secondaryBackground": "#17171f",
     "button.secondaryHoverBackground": "#424260",
-    "input.background": "#17171f",
+    "input.background": "#252a34",
     "input.border": "#00000000",
-    "input.foreground": "#ffffff",
+    "input.foreground": "#787c99",
     "inputOption.activeBackground": "#424260",
-    "inputOption.activeBorder": "#ffffff",
-    "inputOption.activeForeground": "#ffffff",
+    "inputOption.activeBorder": "#787c99",
+    "inputOption.activeForeground": "#787c99",
     "input.placeholderForeground": "#424260",
     "textLink.foreground": "#66eeaa",
     "editor.background": "#2e3440",
@@ -2029,15 +2029,15 @@
     "notificationCenterHeader.foreground": "#787c99",
     "notificationCenterHeader.background": "#252a34",
     "notifications.border": "#0f0f17",
-    "gitDecoration.addedResourceForeground": "#39ff14",
-    "gitDecoration.conflictingResourceForeground": "#bc13fe",
-    "gitDecoration.deletedResourceForeground": "#fe4164",
+    "gitDecoration.addedResourceForeground": "#79cdb2",
+    "gitDecoration.conflictingResourceForeground": "#b48ead",
+    "gitDecoration.deletedResourceForeground": "#d07070",
     "gitDecoration.ignoredResourceForeground": "#8c8c8c",
-    "gitDecoration.modifiedResourceForeground": "#ffcf09",
-    "gitDecoration.stageDeletedResourceForeground": "#fe4164",
-    "gitDecoration.stageModifiedResourceForeground": "#ffcf09",
-    "gitDecoration.submoduleResourceForeground": "#55ffff",
-    "gitDecoration.untrackedResourceForeground": "#fc8427",
+    "gitDecoration.modifiedResourceForeground": "#ebcb8b",
+    "gitDecoration.stageDeletedResourceForeground": "#a25858",
+    "gitDecoration.stageModifiedResourceForeground": "#ebcb8b",
+    "gitDecoration.submoduleResourceForeground": "#88c0d0",
+    "gitDecoration.untrackedResourceForeground": "#d08770",
     "editorMarkerNavigation.background": "#1c1e27",
     "editorMarkerNavigationError.background": "#66eeaa",
     "editorMarkerNavigationWarning.background": "#66eeaa",
@@ -2071,11 +2071,11 @@
     "peekViewTitleDescription.foreground": "#ccccccb3",
     "peekViewTitleLabel.foreground": "#ffffff",
     "icon.foreground": "#787c99",
-    "checkbox.background": "#17171f",
-    "checkbox.foreground": "#ffffff",
+    "checkbox.background": "#252a34",
+    "checkbox.foreground": "#787c99",
     "checkbox.border": "#00000000",
-    "dropdown.background": "#17171f",
-    "dropdown.foreground": "#ffffff",
+    "dropdown.background": "#252a34",
+    "dropdown.foreground": "#787c99",
     "dropdown.border": "#00000000",
     "minimapGutter.addedBackground": "#adff00",
     "minimapGutter.modifiedBackground": "#00c7ff",
