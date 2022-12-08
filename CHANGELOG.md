@@ -15,6 +15,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Fixed the command palette theme
 - Fixed the notifications theme
 - Fixed the sidebar hover interaction
+
+## [0.1.3]
+- Fixed the Night theme widget
+- Fixed the git decorations across all themes
+
+
+
 ## [Unreleased]
 
 - Initial release
