@@ -23,6 +23,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.5]
 - Fixed the hover list item background in Dark Magic Theme
-- Fixed editor selection colros across all themes
+- Updated editor selection colors in Dark Magic Theme (other themes will soon follow)
 - Fixed the git decorations across all themes
+- Updated all themes with Dark Magic terminal theme (per-theme terminal theme soon)
 
