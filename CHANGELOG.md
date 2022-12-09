@@ -21,7 +21,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Fixed the git decorations across all themes
 
 
+## [0.1.5]
+- Fixed the hover list item background in Dark Magic Theme
+- Fixed editor selection colros across all themes
+- Fixed the git decorations across all themes
 
-## [Unreleased]
-
-- Initial release
