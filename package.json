@@ -50,5 +50,8 @@
         "path": "./themes/dark-magic-tokyo-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
   }
 }
