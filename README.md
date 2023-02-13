@@ -15,10 +15,9 @@ It is created with care to minimize distractions and boost your productivity wit
 ## Dark Magic Night
 ![Dark Magic Night](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/eVr8tpJs-default.jpeg)
 
+## Special Syntax
 ## Dark Magic Frankenstein
 ![Dark Magic Frankenstein](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/3A4KNx5T-default.jpeg)
-
-## Special Syntax
 ### Dark Magic Tokyo
 ![Dark Magic Tokyo](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/gtXdi6t8-default.jpeg)
 
