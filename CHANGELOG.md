@@ -27,3 +27,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Fixed the git decorations across all themes
 - Updated all themes with Dark Magic terminal theme (per-theme terminal theme soon)
 
+
+## [0.2]
+- Fixed selection background for all themes
+- Taking a more flat approach to the themes, there should be less color variation between elements that are together in the UI
