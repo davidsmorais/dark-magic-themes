@@ -6,7 +6,7 @@
   "icon": "icon.png",
   "repository": "https://github.com/Dark-Magic-Studios/dark-magic-themes",
   "description": "A collection of dark 🖤 themes with tones of green and blue",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "engines": {
     "vscode": "^1.65.0"
   },
