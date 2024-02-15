@@ -3,6 +3,8 @@
 All notable changes to the "dark-magic-themes" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.2.3]
+- Updated menu and command palette colors for Tokyo and DM themes
 
 ## [0.2.2]
 - Uniformized the UI on all themes > Sidebar & editor background should be the same
