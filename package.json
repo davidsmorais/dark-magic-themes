@@ -6,7 +6,7 @@
   "icon": "icon.png",
   "repository": "https://github.com/Dark-Magic-Studios/dark-magic-themes",
   "description": "A collection of dark 🖤 themes with tones of green and blue",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -50,8 +50,5 @@
         "path": "./themes/dark-magic-tokyo-color-theme.json"
       }
     ]
-  },
-  "dependencies": {
-    "@vscode/vsce": "^2.23.0"
   }
 }
