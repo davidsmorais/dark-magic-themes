@@ -25,6 +25,11 @@
         "path": "./themes/dark-magic-color-theme.json"
       },
       {
+        "label": "Dark Magic Light",
+        "uiTheme": "vs",
+        "path": "./themes/dark-magic-light-color-theme.json"
+      },
+      {
         "label": "Dark Magic Night",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-magic-night-color-theme.json"
