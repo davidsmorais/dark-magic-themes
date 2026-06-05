@@ -1,0 +1,39 @@
+{
+  "id": "dark-magic",
+  "name": "Dark Magic",
+  "description": "A dark, mystical theme with purple and violet accents inspired by arcane forces.",
+  "variants": {
+    "dark": {
+      "colors": {
+        "background": "#0a0a0f",
+        "foreground": "#e8e0f0",
+        "card": "#121116",
+        "cardForeground": "#e8e0f0",
+        "popover": "#121116",
+        "popoverForeground": "#e8e0f0",
+        "primary": "#a78bfa",
+        "primaryForeground": "#0a0a0f",
+        "muted": "#1a1820",
+        "mutedForeground": "#9a93a8",
+        "accent": "#1a1820",
+        "accentForeground": "#e8e0f0",
+        "border": "rgba(167,139,250,0.12)",
+        "input": "rgba(255,255,255,0.08)",
+        "ring": "#a78bfa",
+        "sidebar": "#07070b",
+        "sidebarForeground": "#e8e0f0",
+        "sidebarPrimary": "#a78bfa",
+        "sidebarAccent": "#1a1820",
+        "sidebarBorder": "rgba(167,139,250,0.10)",
+        "sidebarRing": "#a78bfa"
+      },
+      "terminal": {
+        "background": "#0a0a0f",
+        "foreground": "#e8e0f0",
+        "cursor": "#a78bfa",
+        "cursorAccent": "#0a0a0f",
+        "selection": "rgba(167,139,250,0.22)"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "{{THEME_ID}}",
+  "displayName": "{{THEME_NAME}}",
+  "description": "{{THEME_DESCRIPTION}}",
+  "version": "0.0.1",
+  "publisher": "custom",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "{{THEME_NAME}}",
+        "uiTheme": "{{UI_THEME}}",
+        "path": "./themes/{{THEME_ID}}-color-theme.json"
+      }
+    ]
+  }
+}

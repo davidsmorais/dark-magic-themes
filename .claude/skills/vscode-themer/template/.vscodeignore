@@ -1,0 +1,4 @@
+.vscode/**
+parts/**
+.theme-state.json
+*.md
