@@ -34,3 +34,14 @@ It is created with care to minimize distractions and boost your productivity wit
 ![Dark Magic Dracula](https://vscode-themes.nyc3.cdn.digitaloceanspaces.com/profiles/WRZ6BYBQ90No7MtuFxETBjf1DLZ2/yi9401aC-default.jpeg)
 
 
+## Local preview visualizer
+
+Run the browser-based preview app locally:
+
+```bash
+pnpm preview
+```
+
+Then open `http://localhost:4173`.
+
+Use the **Previous** and **Next** buttons, the theme dropdown, or the **Left** and **Right** arrow keys to cycle through every bundled theme in a VS Code-inspired UI preview.

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Magic Theme Preview</title>
+    <link rel="stylesheet" href="/preview/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Theme preview visualizer</p>
+          <h1 id="theme-name">Loading themes…</h1>
+          <p class="hero-copy">
+            Preview the Dark Magic collection in a VS Code-inspired workspace and cycle with the buttons or your
+            keyboard arrow keys.
+          </p>
+        </div>
+
+        <div class="controls">
+          <button id="previous-theme" type="button" aria-label="Previous theme">Previous</button>
+          <label class="theme-picker">
+            <span>Theme</span>
+            <select id="theme-select" aria-label="Select theme"></select>
+          </label>
+          <button id="next-theme" type="button" aria-label="Next theme">Next</button>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="workspace-card">
+          <div class="window-frame">
+            <div class="titlebar">
+              <div class="traffic-lights" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="titlebar-label">dark-magic-themes / src / preview.ts</div>
+              <div class="titlebar-actions">⌘P</div>
+            </div>
+
+            <div class="workbench">
+              <aside class="activity-bar" aria-hidden="true">
+                <div class="activity active"></div>
+                <div class="activity"></div>
+                <div class="activity"></div>
+                <div class="activity"></div>
+              </aside>
+
+              <aside class="sidebar">
+                <div class="sidebar-header">
+                  <span>Explorer</span>
+                  <span class="sidebar-badge" id="sidebar-badge">7</span>
+                </div>
+                <div class="sidebar-group">Theme Files</div>
+                <ul class="file-tree">
+                  <li class="active">preview.ts</li>
+                  <li>theme-registry.ts</li>
+                  <li>colors.ts</li>
+                  <li>README.md</li>
+                </ul>
+              </aside>
+
+              <section class="editor">
+                <div class="editor-tabs">
+                  <div class="tab active">preview.ts</div>
+                  <div class="tab">theme-registry.ts</div>
+                  <div class="tab">README.md</div>
+                </div>
+
+                <div class="editor-body">
+                  <div class="gutter" aria-hidden="true">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                    <span>11</span>
+                    <span>12</span>
+                  </div>
+
+                  <pre class="code-view" aria-label="Code sample"><code>
+<span class="line"><span class="token-keyword">import</span> <span class="token-punctuation">{</span> <span class="token-type">themeRegistry</span> <span class="token-punctuation">}</span> <span class="token-keyword">from</span> <span class="token-string">'./theme-registry'</span><span class="token-punctuation">;</span></span>
+<span class="line"><span class="token-keyword">type</span> <span class="token-type">ThemeSummary</span> <span class="token-operator">=</span> <span class="token-punctuation">{</span></span>
+<span class="line indent-1"><span class="token-property">name</span><span class="token-punctuation">:</span> <span class="token-type">string</span><span class="token-punctuation">;</span></span>
+<span class="line indent-1"><span class="token-property">accents</span><span class="token-punctuation">:</span> <span class="token-type">string</span><span class="token-punctuation">[];</span></span>
+<span class="line"><span class="token-punctuation">}</span><span class="token-punctuation">;</span></span>
+<span class="line"></span>
+<span class="line"><span class="token-keyword">export</span> <span class="token-keyword">function</span> <span class="token-function">renderPreview</span><span class="token-punctuation">(</span><span class="token-parameter">themeName</span><span class="token-punctuation">:</span> <span class="token-type">string</span><span class="token-punctuation">)</span> <span class="token-punctuation">{</span></span>
+<span class="line indent-1"><span class="token-keyword">const</span> <span class="token-variable">activeTheme</span> <span class="token-operator">=</span> <span class="token-variable">themeRegistry</span><span class="token-punctuation">.</span><span class="token-function">find</span><span class="token-punctuation">(</span></span>
+<span class="line indent-2"><span class="token-punctuation">(</span><span class="token-parameter">theme</span><span class="token-punctuation">)</span> <span class="token-operator">=&gt;</span> <span class="token-variable">theme</span><span class="token-punctuation">.</span><span class="token-property">label</span> <span class="token-operator">===</span> <span class="token-variable">themeName</span></span>
+<span class="line indent-1"><span class="token-punctuation">)</span><span class="token-punctuation">;</span></span>
+<span class="line indent-1"><span class="token-comment">// Keep the UI expressive without adding extra chrome.</span></span>
+<span class="line indent-1"><span class="token-keyword">return</span> <span class="token-string">`Previewing ${activeTheme?.label ?? 'Dark Magic'}`</span><span class="token-punctuation">;</span></span>
+<span class="line"><span class="token-punctuation">}</span></span>
+                  </code></pre>
+                </div>
+              </section>
+            </div>
+
+            <div class="bottom-panels">
+              <section class="panel terminal-panel">
+                <div class="panel-title">Integrated Terminal</div>
+                <pre class="terminal-output"><code><span class="terminal-prompt">$</span> pnpm preview
+<span class="terminal-success">Theme preview available at http://localhost:4173</span>
+<span class="terminal-prompt">$</span> <span class="terminal-muted">Use ← and → to cycle through the collection</span></code></pre>
+                <div class="terminal-swatches" id="terminal-swatches"></div>
+              </section>
+
+              <section class="panel">
+                <div class="panel-title">Color Snapshot</div>
+                <div class="palette-grid" id="palette-grid"></div>
+              </section>
+
+              <section class="panel theme-summary-panel">
+                <div class="panel-title">Theme Summary</div>
+                <dl class="theme-summary">
+                  <div>
+                    <dt>Type</dt>
+                    <dd id="theme-type">—</dd>
+                  </div>
+                  <div>
+                    <dt>Accent</dt>
+                    <dd id="theme-accent">—</dd>
+                  </div>
+                  <div>
+                    <dt>Editor</dt>
+                    <dd id="theme-editor">—</dd>
+                  </div>
+                  <div>
+                    <dt>Sidebar</dt>
+                    <dd id="theme-sidebar">—</dd>
+                  </div>
+                </dl>
+                <p class="help-text" id="theme-position">—</p>
+              </section>
+            </div>
+
+            <div class="status-bar">
+              <span>Preview Mode</span>
+              <span id="status-theme-name">Dark Magic</span>
+              <span>localhost:4173</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/preview/app.js" defer></script>
+  </body>
+</html>

@@ -207,10 +207,67 @@ code --install-extension <theme-id>/<theme-id>-<new-version>.vsix
 
 ## Color Design Tips
 
-### Dark themes
-- Background: `#1a1a2e` to `#2d2d44`
-- Foreground: `#d4d4d4` to `#eaeaea`
-- Limit accent colors to 1-2
+### Dark Magic Brand Palette
+
+All new Dark Magic themes should follow this established palette:
+
+#### Backgrounds (darkest → lightest)
+| Token | Hex | Usage |
+|-------|-----|-------|
+| Deepest | `#07070f` | Title bar, activity bar, sidebar bg |
+| Base | `#0f0f17` | Editor background, status bar |
+| Elevated | `#17171f` | Active tab, input, buttons, section headers |
+| Selection | `#22222e` | Active list selection |
+| Muted | `#424260` | Line numbers, placeholder text, inactive |
+
+#### Foreground
+| Token | Hex | Usage |
+|-------|-----|-------|
+| Primary | `#bbccee` | Default text, editor foreground |
+| Dimmed | `#bbccee77` | Comments, inactive tabs |
+| Inactive | `#6b6b89` | Inactive title bar text |
+
+#### Accent Colors
+| Token | Hex | Usage |
+|-------|-----|-------|
+| Mint (primary) | `#66eeaa` | Cursor, focus border, active icons, accent borders |
+| Blue | `#6bc7f5` | Functions, links, imports |
+| Purple | `#cfa3f5` | Keywords, operators, packages |
+| Lime | `#b4f09e` | Control flow, integers, python params |
+| Yellow | `#c7c56c` | Classes, types, language variables |
+| Pink | `#db6797` | Strings, punctuation |
+| Orange | `#ff9d62` | Arithmetic/bitwise operators, regex |
+| Error | `#bb324c` | Errors, diagnostics |
+
+#### Terminal ANSI Colors
+| Color | Normal | Bright |
+|-------|--------|--------|
+| Black | `#111111` | `#333333` |
+| Red | `#bb3232` | `#bb3232` |
+| Green | `#00ffab` | `#66eeaa` |
+| Yellow | `#fbde66` | `#ffd31b` |
+| Blue | `#4c89ae` | `#4f6bae` |
+| Magenta | `#e04c6f` | `#c3115c` |
+| Cyan | `#3d9393` | `#52f3f3` |
+| White | `#d4dbe8` | `#111111` |
+| Cursor | `#66eeaa` | – |
+| Selection | `rgba(102,238,170,0.22)` | – |
+
+#### Token Colors (syntax highlighting)
+| Scope | Color | Style |
+|-------|-------|-------|
+| `comment` | `#bbccee77` | italic |
+| `string` | `#db6797` | – |
+| `constant.numeric` | `#b4f09e` | – |
+| `keyword`, `keyword.control` | `#cfa3f5` | – |
+| `keyword.operator` | `#ff9d62` | – |
+| `entity.name.function`, `support.function` | `#6bc7f5` | – |
+| `entity.name.type`, `entity.name.class` | `#c7c56c` | – |
+| `variable` | `#66eeaa` | – |
+| `variable.language` | `#c7c56c` | – |
+| `entity.name.tag` | `#66eeaa` | – |
+| `entity.other.attribute-name` | `#b4f09e` | – |
+| `storage.type` | `#cfa3f5` | – |
 
 ### Light themes
 - Background: `#ffffff` to `#f5f5f5`

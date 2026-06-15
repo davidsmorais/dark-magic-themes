@@ -6,7 +6,7 @@
   "icon": "icon.png",
   "repository": "https://github.com/Dark-Magic-Studios/dark-magic-themes",
   "description": "A collection of dark 🖤 themes with tones of green and blue",
-  "version": "0.3.1",
+  "version": "0.5.0",
   "engines": {
     "vscode": "^1.65.0"
   },
@@ -14,6 +14,7 @@
     "Themes"
   ],
   "scripts": {
+    "preview": "node scripts/preview-server.js",
     "build": "vsce package",
     "deploy": "vsce publish"
   },
@@ -53,6 +54,16 @@
         "label": "Dark Magic Tokyo",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-magic-tokyo-color-theme.json"
+      },
+      {
+        "label": "Dark Magic Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-magic-midnight-color-theme.json"
+      },
+      {
+        "label": "Dark Magic OLED",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-magic-oled-color-theme.json"
       }
     ]
   }
